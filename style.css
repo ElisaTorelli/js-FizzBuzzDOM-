@@ -1,0 +1,51 @@
+/* GENERAL SETTINGS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #516BEB;
+}
+
+h1{
+    text-align: center;
+    color: whitesmoke;
+    padding-bottom: 24px;
+}
+
+/* GENERAL SQUARE SETTINGS */
+.container{
+    max-width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.square{
+    background-color: #84DFFF;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+    align-items: center;
+}
+
+/* FIZZ SQUARE SETTINGS */
+.fizzSquare{
+    background-color: #EDD2F3;
+    margin-right: 16px;
+}
+/* BUZZ SQUARE SETTINGS */
+.buzzSquare{
+    background-color: #91C788;
+    margin-right: 16px;
+}
+/* FIZZBUZZ SQUARE SETTINGS */
+.fizzbuzzSquare{
+    background-color: #F999B7;
+}
